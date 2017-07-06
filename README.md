@@ -14,11 +14,25 @@ It delivers support for the following codecs:
 OpenPlayer delivers great performance, by using native codec implementation. It has been designed to decode OPUS and VORBIS content within an OGG Wrapper.
 
 
+Original project [audionowdigital/openplayer-android](https://github.com/audionowdigital/openplayer-android)
+
 # Quick start
 
 First of all, you need to add OpenPlayer to your project. If you are using Gradle, add the following line to your build.gradle file and sync your project.
 
-`compile 'com.audionowdigital:openplayer:1.0.0'`
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+Add the dependency:
+
+	dependencies {
+	        compile 'com.github.CommonsLab:openplayer-android:-SNAPSHOT'
+	}
+
+
 
 
 Using OpenPlayer to decode your media is very simple. 
