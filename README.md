@@ -17,6 +17,7 @@ OpenPlayer delivers great performance, by using native codec implementation. It 
 Original project [audionowdigital/openplayer-android](https://github.com/audionowdigital/openplayer-android)
 
 # Quick start
+[![](https://jitpack.io/v/CommonsLab/openplayer-android.svg)](https://jitpack.io/#CommonsLab/openplayer-android)
 
 First of all, you need to add OpenPlayer to your project. If you are using Gradle, add the following line to your build.gradle file and sync your project.
 
